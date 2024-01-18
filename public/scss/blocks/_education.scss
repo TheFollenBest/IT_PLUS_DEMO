@@ -1,0 +1,46 @@
+.education {
+    padding: 150px 0 150px;
+    &__title {
+        text-align: center;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 50px 0 0;
+
+        ~ p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+
+        }
+
+        ~ ul {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+
+            >li{
+                &:before{
+                    content: "• ";
+                }
+            }
+        }
+    }
+
+
+}
+
+.education-wrp-top {}
+
+.education-wrp-bottom {
+    padding: 50px 0 0;
+}

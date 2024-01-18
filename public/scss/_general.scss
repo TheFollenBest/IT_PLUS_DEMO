@@ -1,0 +1,80 @@
+@import '../fonts/Bebas_Neue_Cyrilic/stylesheet.css';
+@import '../fonts/Bebasneue/stylesheet.css';
+@import '../fonts/Montserrat/stylesheet.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+body {
+    border: 15px solid #4E5AFF;
+    font-family: 'Montserrat', 'Bebas Neue Cyrillic', 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+
+    background-color: white;
+
+    background-image: url(../img/bg-icons.png) !important;
+    background-repeat: repeat-y;
+    background-position: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+hr{
+    width: 109px;
+    height: 8px;
+    border: none;
+
+    background: #3A5AFF;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+@media (max-width: $tablet-size) {
+    .container {
+        max-width: 736px;
+        margin: 0 16px;
+    }
+}
+
+@media (max-width: $mobile-size) {
+    .container {
+        max-width: 343px;
+    }
+}

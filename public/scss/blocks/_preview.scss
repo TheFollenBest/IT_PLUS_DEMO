@@ -1,0 +1,149 @@
+.preview {
+
+    position: relative;
+        &-wrp {
+            display: flex;
+            align-items: center;
+
+            height: calc(100vh - 92px);
+
+
+            &__left {
+                position: relative;
+                margin-left: 80px;
+
+                &-line-1 {
+                    position: absolute;
+                    height: 7.131vh;
+                    width: 5px;
+                    background-color: var(--purple);
+                    top: 0;
+                    margin-left: 481px;
+
+                    &::before {
+                        content: "MMXXII";
+                        font-family: 'Bebas Neue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        margin: auto;
+                        position: absolute;
+                        left: -20px; bottom: -28px;
+                    }
+                }
+
+                &-line-2 {
+                    position: absolute;
+                    height: 17.826vh;
+                    width: 5px;
+                    background-color: var(--purple);
+                    top: 0;
+                    margin-left: 687px;
+
+                    &::after {
+                        content: "+3 course";
+                        font-family: 'Bebas Neue';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        margin: auto;
+                        position: absolute;
+                        left: -35px; bottom: -28px;
+                        width: 70px;
+                    }
+                }
+
+                &-line-3 {
+                    position: absolute;
+                    height: 7.131vh;
+                    width: 5px;
+                    background-color: var(--purple);
+                    bottom: 0;
+                    margin-left: 275px;
+                }
+
+                &-line-4 {
+                    position: absolute;
+                    height: 17.826vh;
+                    width: 5px;
+                    background-color: var(--purple);
+                    bottom: 0;
+                    margin-left: 481px;
+                }
+            }
+
+
+        }
+
+        &__subtitle {
+            font-family: 'Bebas Neue';
+            font-weight: 400;
+            font-size: 18px;
+            color: #4E5AFF;
+            margin: 0 0 -10px 5px;
+        }
+
+        &__title {
+            font-family: 'Bebas Neue Cyrillic';
+            font-weight: 400;
+            font-size: 95.5px;
+            line-height: 96px;
+            max-width: 575px;
+        }
+
+        &-wrp__right {
+            background-color: var(--purple);
+            padding-top: 53px;
+            padding-left: 108px;
+            height: 100%;
+            z-index: 100;
+            position: absolute;
+            width: 631px;
+            right: -1px;
+
+
+            &::before {
+                content: "";
+                position: relative;
+                height: 100%;
+                width: 100%;
+
+            }
+
+            &-logo {
+                max-height: 150px;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: auto;
+                margin-left: -82px;
+                transform: rotate(-90deg);
+                padding: 38px 14px;
+            }
+        }
+
+        &__title-right {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+            max-width: 160px;
+            margin-bottom: 36px;
+            text-align: center;
+        }
+
+        &__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14.5px;
+            line-height: 18px;
+            color: #FFFFFF;
+            max-width: 220px;
+        }
+    }

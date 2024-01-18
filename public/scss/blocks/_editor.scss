@@ -1,0 +1,37 @@
+.editor {
+    display: flex;
+    &__wrp {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+    }
+    &__input {
+        background-color: #273236;
+        color: white;
+        min-height: 300px;
+        resize: none;
+        font-size: 16px;
+
+        &--html {
+        }
+        &--css {
+        }
+        &--js {
+        }
+    }
+    &__label{
+    }
+    &__output {
+        flex-grow: 1;
+    }
+}body {
+    background-image: none;
+     height: auto;
+ }
+
+ .card{
+     color: white;
+     background-color: #6c757d !important;
+     padding: 10px;
+ }

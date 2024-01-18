@@ -1,0 +1,66 @@
+.preview-course {
+    padding: 45px 0 0;
+    &__subtitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        padding: 0 0 0 32px;
+    }
+
+    &__wrp {
+        background: #7070FF;
+        border-radius: 35px;
+        display: flex;
+        padding: 64px 90px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__wrp-inner {}
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 31px;
+        color: #FFFFFF;
+        padding: 45px 0 140px;
+        max-width: 580px;
+    }
+
+    &__btn {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        color: #000000;
+        transition: 0.3s;
+        padding: 13px 109px;
+
+        &:hover{
+            color: white;
+            background: black;
+        }
+    }
+
+    &__img{
+        height: 100%;
+        width: auto;
+    }
+}
